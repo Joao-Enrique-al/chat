@@ -11,7 +11,7 @@ function AuthHeader() {
 
         <div>
           <p className="truncate text-[15px] font-semibold leading-tight">{APP_NAME}</p>
-          <p className="truncate text-xs text-[#8E8E93] dark:text-[#98989D]">Private session</p>
+          <p className="truncate text-xs text-[#8E8E93] dark:text-[#98989D]">Sessão privada</p>
         </div>
       </div>
 

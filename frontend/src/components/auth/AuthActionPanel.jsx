@@ -40,7 +40,7 @@ export function AuthActionPanel() {
           <div className="flex items-center justify-center gap-1.5 text-accent">
             <SparklesIcon className="size-3.5" strokeWidth={2} aria-hidden />
             <span className="text-[11px] font-semibold uppercase tracking-[0.18em]">
-              Secure entry
+              Entrada segura
             </span>
           </div>
         </div>
@@ -56,7 +56,7 @@ export function AuthActionPanel() {
             }}
           >
             <span className="relative z-1 flex items-center justify-center gap-2">
-              Continue
+              Continuar
               <ArrowRightIcon
                 className="size-4 transition-transform group-hover:translate-x-0.5"
                 aria-hidden
@@ -71,7 +71,7 @@ export function AuthActionPanel() {
             strokeWidth={2}
             aria-hidden
           />
-          <span>Protected session · TLS encryption</span>
+          <span>Sessão protegida · Criptografia TLS</span>
         </div>
       </AuthCardShell>
     </section>

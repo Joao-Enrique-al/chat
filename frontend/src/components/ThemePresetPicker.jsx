@@ -26,14 +26,14 @@ export function ThemePresetPicker() {
           <Modal.Dialog className="max-h-[85dvh] border border-white/10 bg-[#2a2a2c] text-foreground shadow-2xl">
             <Modal.Header className="flex flex-row items-center justify-between gap-3 border-b border-white/10 pb-3">
               <Modal.Heading className="text-lg font-semibold tracking-tight text-white">
-                Accent theme
+                Tema de destaque
               </Modal.Heading>
               <Modal.CloseTrigger />
             </Modal.Header>
 
             <Modal.Body className="isolate pt-4">
               <p className="mb-4 text-sm text-zinc-400">
-                HeroUI components use the accent color for primary actions and focus.
+                Os componentes do HeroUI utilizam a cor de destaque para ações primárias e estados de foco.
               </p>
               <div className="grid grid-cols-3 gap-4 sm:grid-cols-4">
                 {HERO_UI_THEME_PRESETS.map((p) => {

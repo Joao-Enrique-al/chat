@@ -11,10 +11,10 @@ export function NoConversationPlaceholder() {
       </div>
       <div className="max-w-76 space-y-2">
         <h2 className="text-[16px] font-semibold tracking-tight sm:text-[17px]">
-          Select a chat to start
+          Selecione um chat para começar
         </h2>
         <p className="text-[13px] leading-relaxed text-muted">
-          Pick a conversation from the list on the left to read messages and reply.
+          Escolha uma conversa da lista à esquerda para ler as mensagens e responder.
         </p>
       </div>
     </div>

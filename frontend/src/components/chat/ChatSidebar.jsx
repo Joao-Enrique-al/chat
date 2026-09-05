@@ -96,7 +96,7 @@ function ChatSidebar() {
           >
             <SearchField.Group className="rounded-xl">
               <SearchField.SearchIcon />
-              <SearchField.Input placeholder="Search" />
+              <SearchField.Input placeholder="Procurar" />
               {searchQuery ? <SearchField.ClearButton /> : null}
             </SearchField.Group>
           </SearchField>
@@ -106,11 +106,11 @@ function ChatSidebar() {
           <Tabs.List className="w-full gap-0.5">
             <Tabs.Tab id="chats" className="flex-1 justify-center gap-1.5">
               <MessageSquareIcon className="size-3.5 opacity-80" aria-hidden />
-              Chats
+              Conversas
             </Tabs.Tab>
             <Tabs.Tab id="users" className="flex-1 justify-center gap-1.5">
               <UsersIcon className="size-3.5 opacity-80" aria-hidden />
-              Users
+              Usuários
             </Tabs.Tab>
           </Tabs.List>
         </Tabs.ListContainer>
@@ -121,7 +121,7 @@ function ChatSidebar() {
         >
           {filteredConversations.length === 0 ? (
             <p className="px-4 py-6 text-center text-sm text-muted">
-              No conversations match your search.
+              Nenhuma conversa corresponde à sua pesquisa.
             </p>
           ) : (
             filteredConversations.map((conversation) => (
@@ -137,7 +137,7 @@ function ChatSidebar() {
 
         <Tabs.Panel id="users" className="flex-1 overflow-x-hidden overflow-y-auto outline-none">
           {filteredUsers.length === 0 ? (
-            <p className="px-4 py-6 text-center text-sm text-muted">No people match your search.</p>
+            <p className="px-4 py-6 text-center text-sm text-muted">Nenhuma pessoa corresponde à sua busca.</p>
           ) : (
             filteredUsers.map((user) => (
               <ConversationRow

@@ -52,7 +52,7 @@ export function ChatComposer() {
             strokeWidth={2}
             aria-hidden
           />
-          <span className="truncate">Uploading media...</span>
+          <span className="truncate">Enviando mídia...</span>
         </div>
       ) : null}
       <div className="mx-auto flex w-full max-w-full items-end gap-1.5 px-0.5 sm:gap-2 sm:px-1">
